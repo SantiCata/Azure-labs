@@ -1,0 +1,9 @@
+# Ignore any files with sensitive info
+*.env
+secrets.txt
+credentials.json
+*.tfvars
+
+# OS files
+.DS_Store
+Thumbs.db
