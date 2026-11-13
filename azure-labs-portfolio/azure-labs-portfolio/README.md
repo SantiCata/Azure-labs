@@ -8,12 +8,19 @@ Each lab documents real configurations done in a live Azure environment — incl
 
 ## About me
 
-I'm transitioning into cloud infrastructure from a hospitality background. I passed AZ-900 in early 2025 and am currently working toward AZ-104, targeting certification in late July / early August 2025.
+I'm transitioning into Cloud Infrastructure and Engineering from a hospitality management background, bringing 7 years of professional experience in customer service, teamwork and operations.
 
-- 📍 Based in Barcelona, working remotely
-- 🎯 Target role: Junior Azure Administrator / Cloud Support Engineer
-- 🌐 Languages: Spanish (native), English (fluent)
-- 🔗 [LinkedIn](#) <!-- add your LinkedIn URL -->
+I passed the Microsoft Azure Fundamentals (AZ-900) certification and I'm currently studying for the Azure Administrator Associate (AZ-104).
+
+📍 Based in Spain
+
+🎯 Target roles: Junior Azure Administrator, Cloud Support Engineer and Azure Infrastructure Engineer
+
+🌍 Open to remote opportunities across Europe
+
+🗣️ Languages: Spanish (Native), English (Fluent), Catalan (Fluent)
+
+🔗 LinkedIn: My LinkedIn Profile
 
 ---
 
