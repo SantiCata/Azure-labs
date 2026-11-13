@@ -20,8 +20,6 @@ I passed the Microsoft Azure Fundamentals (AZ-900) certification and I'm current
 
 🗣️ Languages: Spanish (Native), English (Fluent), Catalan (Fluent)
 
-🔗 LinkedIn: My LinkedIn Profile
-
 ---
 
 ## Lab index
