@@ -1,8 +1,10 @@
-# Azure Labs Portfolio
+# Azure Cloud Engineering Portfolio
 
-Hands-on Azure labs completed as part of my AZ-104 (Microsoft Azure Administrator) certification journey.
+Hands-on Microsoft Azure labs and personal cloud infrastructure projects.
 
-Each lab documents real configurations done in a live Azure environment — including the goal, the steps taken, the commands used, and any issues encountered along the way.
+This repository documents my journey towards becoming a Cloud Infrastructure Engineer, focusing on Microsoft Azure administration, networking, identity management, security and automation.
+
+Each lab documents practical configurations, implementation steps, commands, troubleshooting and key technical learnings.
 
 ---
 
@@ -12,63 +14,114 @@ I'm transitioning into Cloud Infrastructure and Engineering from a hospitality m
 
 I passed the Microsoft Azure Fundamentals (AZ-900) certification and I'm currently studying for the Azure Administrator Associate (AZ-104).
 
-📍 Based in Spain
-
-🎯 Target roles: Junior Azure Administrator, Cloud Support Engineer and Azure Infrastructure Engineer
-
-🌍 Open to remote opportunities across Europe
-
-🗣️ Languages: Spanish (Native), English (Fluent), Catalan (Fluent)
+- Based in Spain
+- Target roles: Junior Azure Administrator, Cloud Support Engineer and Azure Infrastructure Engineer
+- Open to remote opportunities across Europe
+- Languages: Spanish (Native), English (Fluent), Catalan (Fluent)
 
 ---
 
-## Lab index
+## Labs – AZ-104
+
+Hands-on labs covering the main topics of the Microsoft Azure Administrator certification.
 
 | # | Topic | Key services | Status |
 |---|-------|-------------|--------|
-| 03 | [Virtual Networks & NSG](./03-virtual-networks-nsg/) | VNet, Subnet, NSG, Peering | 🚧 In progress |
-| 04 | [Virtual Machines](./04-virtual-machines/) | VM, Availability Sets, Extensions | 🚧 In progress |
-| 05 | [Storage Accounts](./05-storage-accounts/) | Blob, File Share, SAS tokens, Lifecycle | 🚧 In progress |
-| 06 | [RBAC & Policies](./06-rbac-policies/) | Role assignments, Custom roles, Azure Policy | 🚧 In progress |
-| 07 | [Azure Monitor & Alerts](./07-azure-monitor/) | Metrics, Log Analytics, Alerts, Workbooks | 🚧 In progress |
-| 08 | [Backup & Recovery](./08-backup-recovery/) | Recovery Services Vault, VM Backup, ASR | 🚧 In progress |
-| 09 | [Load Balancer](./09-load-balancer/) | Public LB, Internal LB, Health probes | 🚧 In progress |
-| 10 | [App Service](./10-app-service/) | Web App, Deployment slots, App Service Plan | 🚧 In progress |
-| 11 | [Key Vault](./11-key-vault/) | Secrets, Keys, Access policies, Managed Identity | 🚧 In progress |
-| 12 | [Mini project: Hub-Spoke network](./12-mini-project-hub-spoke/) | VNet peering, NVA, UDR, Bastion | ⏳ Planned |
-| 13 | [Mini project: IAM & Governance](./13-mini-project-iam-governance/) | Entra ID, PIM, Policies, Blueprints | ⏳ Planned |
-| 14 | [Mini project: Full infrastructure](./14-mini-project-full-infra/) | VM + VNet + Storage + RBAC + Monitor | ⏳ Planned |
+| 01 | [Microsoft Entra ID Identities](./Labs/01-entra-id-identities/) | Users, Groups, Identity Management | Completed |
+| 02 | [Subscriptions & Governance](./Labs/02-subscriptions-and-governance/) | Subscriptions, RBAC, Azure Policy | In progress |
+| 03 | [ARM Templates](./Labs/03-arm-templates/) | ARM Templates, Resource Deployment | Planned |
+| 04 | [Virtual Networking](./Labs/04-virtual-networking/) | VNets, Subnets, NSGs | Planned |
+| 05 | [Intersite Connectivity](./Labs/05-intersite-connectivity/) | VNet Peering, VPN Gateway | Planned |
+| 06 | [Network Traffic Management](./Labs/06-network-traffic-management/) | Load Balancer, Traffic Management | Planned |
+| 07 | [Azure Storage](./Labs/07-azure-storage/) | Storage Accounts, Blob, File Shares | Planned |
+| 08 | [Virtual Machines](./Labs/08-virtual-machines/) | VMs, Availability, Extensions | Planned |
+| 09 | [Web Apps & Containers](./Labs/09-web-apps-and-containers/) | App Service, Container Instances, Container Apps | Planned |
+| 10 | [Data Protection](./Labs/10-data-protection/) | Azure Backup, Recovery | Planned |
+| 11 | [Azure Monitoring](./Labs/11-azure-monitoring/) | Azure Monitor, Alerts, Log Analytics | Planned |
 
-> Labs 01–02 (Entra ID fundamentals, basic user/group management) were completed as introductory exercises and are not included here.
-
----
-
-## Tools used
-
-- **Azure Portal** — primary interface for lab work
-- **Azure CLI** — command-line provisioning and automation
-- **PowerShell (Az module)** — scripting and automation tasks
-- **Azure Cloud Shell** — browser-based shell environment
-- **Free Azure account** — all labs run in a personal sandbox subscription
+*Note: Some learning modules contain multiple sub-labs (02a, 02b, 09a, 09b and 09c). These will be documented separately within their corresponding folders.*
 
 ---
 
-## Certification path
+## Personal Projects
 
+Independent projects designed and implemented to develop practical cloud engineering skills.
+
+Projects will focus on real-world Azure infrastructure scenarios, security, networking and automation.
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| Coming soon | Personal Azure infrastructure projects | Planned |
+
+---
+
+## Automation
+
+A dedicated space for scripts and automation tools developed while learning cloud administration.
+
+- PowerShell (Az Module)
+- Azure CLI
+- Terraform (planned)
+
+---
+
+## Tools & Technologies
+
+- **Microsoft Azure Portal** – Cloud resource management.
+- **Azure CLI** – Command-line provisioning and administration.
+- **PowerShell (Az Module)** – Scripting and automation.
+- **Azure Cloud Shell** – Browser-based shell environment.
+- **Git & GitHub** – Version control and project documentation.
+
+---
+
+## Certification Path
+
+- AZ-900 – Microsoft Azure Fundamentals ✅
+- AZ-104 – Microsoft Azure Administrator Associate 🔄
+
+Future certifications will depend on my career development and specialization.
+
+---
+
+## Repository Structure
+
+```text
+Azure-labs/
+│
+├── README.md
+├── LAB-TEMPLATE.md
+│
+├── Labs/
+│   ├── 01-entra-id-identities/
+│   ├── 02-subscriptions-and-governance/
+│   ├── 03-arm-templates/
+│   ├── 04-virtual-networking/
+│   ├── 05-intersite-connectivity/
+│   ├── 06-network-traffic-management/
+│   ├── 07-azure-storage/
+│   ├── 08-virtual-machines/
+│   ├── 09-web-apps-and-containers/
+│   ├── 10-data-protection/
+│   └── 11-azure-monitoring/
+│
+├── Projects/
+│
+├── scripts/
+└── screenshots/
 ```
-AZ-900 ✅  →  AZ-104 🔄  →  AZ-500 ⏳  →  AZ-305 ⏳
-```
 
 ---
 
-## Lab format
+## Lab Documentation Format
 
-Each lab folder contains:
+Each lab will include:
 
-- `README.md` — objective, steps, commands, screenshots and lessons learned
-- `/scripts/` — any PowerShell or CLI scripts used
-- `/screenshots/` — Azure Portal screenshots showing the deployed resources
+- **README.md** – Objectives, Azure services, implementation steps and key learnings.
+- **Screenshots** – Evidence of the actual Azure configuration.
+- **Scripts** – PowerShell or Azure CLI scripts when applicable.
+- **Troubleshooting** – Issues encountered and how they were resolved.
 
 ---
 
-*Last updated: 2025*
+*This repository is continuously updated as I progress through my Azure learning journey.*
